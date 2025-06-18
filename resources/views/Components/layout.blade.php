@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Home</title>
 </head>
 <body>
-        <p>Hello from the contacts page</p>
-    
+    <x-nav-link> </x-nav-link>
+       
+    {{ $slot }}
 </body>
 </html>
